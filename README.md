@@ -1,1 +1,2 @@
-# K23CNT3_HaQuangMinh_NetCoreLearning
+# K23CNT3 - Ha Quang Minh - NetCore Learning
+## khoa hoc lap trinh web va cong nghe NETCORE
