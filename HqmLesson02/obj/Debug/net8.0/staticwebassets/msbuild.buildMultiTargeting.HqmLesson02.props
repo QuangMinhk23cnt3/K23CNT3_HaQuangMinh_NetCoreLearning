@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HqmLesson02.props" />
+</Project>
