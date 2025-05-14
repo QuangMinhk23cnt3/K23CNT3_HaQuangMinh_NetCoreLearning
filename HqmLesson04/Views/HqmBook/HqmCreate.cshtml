@@ -1,0 +1,47 @@
+﻿@model HqmLesson04.Models.HqmBook
+
+@{
+    ViewData["Title"] = "Thêm mới sách";
+}
+
+<h2>Thêm mới sách</h2>
+
+<form asp-action="HqmCreateSubmit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="HqmId"></label>
+        <input asp-for="HqmId" class="form-control" />
+        <span asp-validation-for="HqmId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HqmTitle"></label>
+        <input asp-for="HqmTitle" class="form-control" />
+        <span asp-validation-for="HqmTitle" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HqmDescription"></label>
+        <input asp-for="HqmDescription" class="form-control" />
+        <span asp-validation-for="HqmDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HqmImage"></label>
+        <input asp-for="HqmImage" class="form-control"/>
+        <span asp-validation-for="HqmImage" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HqmPrice"></label>
+        <textarea asp-for="HqmPrice" class="form-control"></textarea>
+        <span asp-validation-for="HqmPrice" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

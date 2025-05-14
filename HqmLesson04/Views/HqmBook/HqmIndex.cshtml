@@ -1,0 +1,34 @@
+﻿@model IEnumerable<HqmLesson04.Models.HqmBook>
+@{
+    ViewData["Title"] = "Danh sach Sach";
+}
+
+<h1>Thong tin cac cuon sach</h1>
+<a href="/hqmbook/hqmcreate" class="btn btn-primary">Them</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>BookId</th>
+            <th>Title</th>
+            <th>Mo ta</th>
+            <th>Hinh anh</th>
+            <th>Gia tien</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(HqmBook HqmItem in Model)
+        {
+            <tr>
+                <td>@HqmItem.HqmId</td>
+                <td>@HqmItem.HqmTitle</td>
+                <td>@HqmItem.HqmDescription</td>
+                <td>
+                    <img src="@HqmItem.HqmImage" alt="@HqmItem.HqmTitle" style="width:100px; height:150px" />
+                    </td>
+                <td>@HqmItem.HqmPrice</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
