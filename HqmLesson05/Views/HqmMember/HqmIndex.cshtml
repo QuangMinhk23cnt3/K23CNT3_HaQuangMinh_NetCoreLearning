@@ -1,0 +1,30 @@
+﻿@model IEnumerable<HqmLesson05.Models.DataModels.HqmMember>;
+@{
+    ViewData["Title"] = "HqmIndex";
+}
+
+<h1>Danh sach member</h1>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Member Id</th>
+            <th>Member UserName</th>
+            <th>Member Password</th>
+            <th>Member FullName</th>
+            <th>Member Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var hqmItem in Model)
+        {
+            <tr>
+                <td>@hqmItem.HqmMemberId</td>
+                <td>@hqmItem.HqmUserName</td>
+                <td>@hqmItem.HqmPassword</td>
+                <td>@hqmItem.HqmFullName</td>
+                <td>@hqmItem.HqmEmail</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
