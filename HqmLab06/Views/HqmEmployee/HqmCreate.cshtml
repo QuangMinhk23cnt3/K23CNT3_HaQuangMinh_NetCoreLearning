@@ -1,0 +1,51 @@
+﻿@model HqmLab06.Models.HqmEmployee
+@{
+    ViewData["Title"] = "Them moi nhan vien";
+}
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+
+<div class="container mt-4">
+<form asp-action="HqmCreate" method="post">
+
+<div class="mb-3">
+    <label class="form-label">Họ tên</label>
+    <input asp-for="HqmName" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Ngày sinh</label>
+    <input asp-for="HqmBirthDay"  type="date" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Email</label>
+    <input asp-for="HqmEmail" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Số điện thoại</label>
+    <input asp-for="HqmPhone" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Lương</label>
+    <input asp-for="HqmSalary" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Trạng thái</label>
+    <select asp-for="HqmStatus" class="form-select">
+        <option value="true">Online</option>
+        <option value="false">Offline</option>
+    </select>
+    <span asp-validation-for="HqmStatus" class="text-danger"></span>
+</div>
+<div class="d-flex justify-content-between">
+    <button type="submit" class="btn btn-success">Save</button>
+			<a asp-action="HqmIndex" class="btn btn-secondary">Return</a>
+		</div>
+	</form>
+
+</div>
+</div>

@@ -1,0 +1,39 @@
+﻿@model HqmLab06.Models.HqmEmployee
+
+@{
+    ViewData["Title"] = "Chỉnh sửa nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="HqmEditPUT" method="post">
+    <input type="hidden" asp-for="HqmId" />
+    <div class="mb-3">
+        <label>Họ tên</label>
+        <input asp-for="HqmName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Ngày sinh</label>
+        <input asp-for="HqmBirthDay" class="form-control" type="date" />
+    </div>
+    <div class="mb-3">
+        <label>Email</label>
+        <input asp-for="HqmEmail" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>SĐT</label>
+        <input asp-for="HqmPhone" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Lương</label>
+        <input asp-for="HqmSalary" class="form-control" />
+    </div>
+    <div class="mb-3 form-check">
+        <input asp-for="HqmStatus" class="form-check-input" />
+        <label class="form-check-label">Đang làm việc</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+    <a asp-action="HqmIndex" class="btn btn-secondary">Hủy</a>
+</form>
+
+
