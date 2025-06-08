@@ -80,7 +80,7 @@ namespace HqmLesson07.Controllers
             return View(hqmEmployee);
         }
 
-        // POST: HqmEmployeeController/Create
+        // POST: HqmEmployeeController/HqmCreate
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult HqmCreate(HqmEmployee hqmModel)
@@ -128,10 +128,12 @@ namespace HqmLesson07.Controllers
             }
         }
 
-        // GET: HqmEmployeeController/Delete/5
-        public ActionResult Delete(int id)
+        // GET: HqmEmployeeController/HqmDelete/5
+        public IActionResult HqmDelete(int id)
         {
-            return View();
+            var hqmEmployee = hqmListEmployee.FirstOrDefault(e => e.HqmId == id);
+            if (hqmEmployee != null) hqmListEmployee.Remove(hqmEmployee);
+            return RedirectToAction("HqmIndex");
         }
 
         // POST: HqmEmployeeController/Delete/5
