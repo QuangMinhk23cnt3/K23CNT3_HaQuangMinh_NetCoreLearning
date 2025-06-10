@@ -1,0 +1,76 @@
+﻿@model HqmLesson08.Models.HqmAccount
+
+@{
+    ViewData["Title"] = "HqmCreate";
+}
+
+<h1>Them moi tai khoan</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="HqmCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HqmId" class="control-label"></label>
+                <input asp-for="HqmId" class="form-control" />
+                <span asp-validation-for="HqmId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmFullName" class="control-label"></label>
+                <input asp-for="HqmFullName" class="form-control" />
+                <span asp-validation-for="HqmFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmEmail" class="control-label"></label>
+                <input asp-for="HqmEmail" class="form-control" />
+                <span asp-validation-for="HqmEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmPhone" class="control-label"></label>
+                <input asp-for="HqmPhone" class="form-control" />
+                <span asp-validation-for="HqmPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmAddress" class="control-label"></label>
+                <input asp-for="HqmAddress" class="form-control" />
+                <span asp-validation-for="HqmAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmAvatar" class="control-label"></label>
+                <input asp-for="HqmAvatar" class="form-control" />
+                <span asp-validation-for="HqmAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmBirthday" class="control-label"></label>
+                <input asp-for="HqmBirthday" class="form-control" />
+                <span asp-validation-for="HqmBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmGender" class="control-label"></label>
+                <input asp-for="HqmGender" class="form-control" />
+                <span asp-validation-for="HqmGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmPassword" class="control-label"></label>
+                <input asp-for="HqmPassword" class="form-control" />
+                <span asp-validation-for="HqmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmFacebook" class="control-label"></label>
+                <input asp-for="HqmFacebook" class="form-control" />
+                <span asp-validation-for="HqmFacebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="HqmIndex">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

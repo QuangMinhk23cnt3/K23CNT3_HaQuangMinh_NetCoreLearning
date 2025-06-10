@@ -1,0 +1,88 @@
+﻿@model IEnumerable<HqmLesson08.Models.HqmAccount>
+
+@{
+    ViewData["Title"] = "Danh sach tai khoan";
+}
+
+<h1>Danh sach tai khoan</h1>
+
+<p>
+    <a asp-action="HqmCreate" class="btn btn-primary">Them moi</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmFacebook)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmAvatar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmBirthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmFacebook)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.HqmId */ }) |
+                    @Html.ActionLink("Details", "HqmDetails", new { id = item.HqmId }) |
+                    @Html.ActionLink("Delete", "HqmDelete", new { id=item.HqmId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
