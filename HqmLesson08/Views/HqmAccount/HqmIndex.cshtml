@@ -78,9 +78,9 @@
                 @Html.DisplayFor(modelItem => item.HqmFacebook)
             </td>
             <td>
-                    @Html.ActionLink("Edit", "Edit", new { /* id=item.HqmId */ }) |
-                    @Html.ActionLink("Details", "HqmDetails", new { id = item.HqmId }) |
-                    @Html.ActionLink("Delete", "HqmDelete", new { id=item.HqmId })
+                    @Html.ActionLink("Details", "HqmDetails", new { id = item.HqmId }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.HqmId */ }, new { @class = "btn btn-warning" })   |
+                    @Html.ActionLink("Delete", "HqmDelete", new { id = item.HqmId }, new { @class = "btn btn-danger" })
             </td>
         </tr>
 }

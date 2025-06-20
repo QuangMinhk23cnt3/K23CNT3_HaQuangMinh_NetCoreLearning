@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HqmLesson09EF.Models.Category>
+
+@{
+    ViewData["Title"] = "Danh sach cac loai sach";
+}
+
+<h1>Danh sach cac loai sach</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-hqmId="@item.CategoryId">Edit</a> |
+                    <a asp-action="Details" asp-route-hqmId="@item.CategoryId">Details</a> |
+                    <a asp-action="Delete" asp-route-hqmId="@item.CategoryId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

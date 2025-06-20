@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HqmLesson08.uwwzrep1zb.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oqsH9r1CRQfv9vlenpV/zhV35rDN9WA7kZcJw0TYV8A="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oqsH9r1CRQfv9vlenpV/zhV35rDN9WA7kZcJw0TYV8A=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Jun 2025 04:25:15 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oqsH9r1CRQfv9vlenpV/zhV35rDN9WA7kZcJw0TYV8A=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 03:34:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HqmLesson08/HqmLesson08.uwwzrep1zb.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HqmLesson08.uwwzrep1zb.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uwwzrep1zb"},{"Name":"integrity","Value":"sha256-oqsH9r1CRQfv9vlenpV/zhV35rDN9WA7kZcJw0TYV8A="},{"Name":"label","Value":"_content/HqmLesson08/HqmLesson08.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oqsH9r1CRQfv9vlenpV/zhV35rDN9WA7kZcJw0TYV8A=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Jun 2025 04:25:15 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oqsH9r1CRQfv9vlenpV/zhV35rDN9WA7kZcJw0TYV8A=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 03:34:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HqmLesson08/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
