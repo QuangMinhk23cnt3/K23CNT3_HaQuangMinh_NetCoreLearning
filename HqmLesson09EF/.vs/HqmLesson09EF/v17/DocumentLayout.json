@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson09EF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E226D60A-032F-4710-A460-BAE53F4A8883}|HqmLesson09EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson09ef\\views\\hqmhome\\hqmabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E226D60A-032F-4710-A460-BAE53F4A8883}|HqmLesson09EF.csproj|solutionrelative:views\\hqmhome\\hqmabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E226D60A-032F-4710-A460-BAE53F4A8883}|HqmLesson09EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson09ef\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E226D60A-032F-4710-A460-BAE53F4A8883}|HqmLesson09EF.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HqmAbout.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson09EF\\Views\\HqmHome\\HqmAbout.cshtml",
+              "RelativeDocumentMoniker": "Views\\HqmHome\\HqmAbout.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson09EF\\Views\\HqmHome\\HqmAbout.cshtml",
+              "RelativeToolTip": "Views\\HqmHome\\HqmAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:49:28.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson09EF\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HqmPublishersController.cs",
               "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson09EF\\Controllers\\HqmPublishersController.cs",
               "RelativeDocumentMoniker": "Controllers\\HqmPublishersController.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Controllers\\HqmPublishersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T15:15:36.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T15:15:36.924Z"
             }
           ]
         }

@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\views\\hqmposts\\hqmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:views\\hqmposts\\hqmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\views\\hqmposts\\hqmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:views\\hqmposts\\hqmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\views\\shared\\_hqmlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:views\\shared\\_hqmlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\views\\hqmhome\\hqmabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:views\\hqmhome\\hqmabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\views\\hqmhome\\hqmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:views\\hqmhome\\hqmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\controllers\\hqmpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:controllers\\hqmpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\models\\hqmpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:models\\hqmpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\views\\shared\\_hqmnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:views\\shared\\_hqmnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\controllers\\hqmhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:controllers\\hqmhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|c:\\netcore\\k23cnt3_haquangminh_netcorelearning\\hqmlesson10ef\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B545591C-0243-4A9B-886D-7002949CAEA1}|HqmLesson10EF.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_HqmNavBar.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\Shared\\_HqmNavBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_HqmNavBar.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\Shared\\_HqmNavBar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_HqmNavBar.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBIAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:54:08.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HqmIndex.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmHome\\HqmIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\HqmHome\\HqmIndex.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmHome\\HqmIndex.cshtml",
+              "RelativeToolTip": "Views\\HqmHome\\HqmIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:50:06.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_HqmLayout.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\Shared\\_HqmLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_HqmLayout.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\Shared\\_HqmLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_HqmLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:50:15.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HqmAbout.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmHome\\HqmAbout.cshtml",
+              "RelativeDocumentMoniker": "Views\\HqmHome\\HqmAbout.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmHome\\HqmAbout.cshtml",
+              "RelativeToolTip": "Views\\HqmHome\\HqmAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:48:45.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HqmIndex.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmPosts\\HqmIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\HqmPosts\\HqmIndex.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmPosts\\HqmIndex.cshtml",
+              "RelativeToolTip": "Views\\HqmPosts\\HqmIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T03:04:06.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HqmCreate.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmPosts\\HqmCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\HqmPosts\\HqmCreate.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\HqmPosts\\HqmCreate.cshtml",
+              "RelativeToolTip": "Views\\HqmPosts\\HqmCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:26:48.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HqmPostsController.cs",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Controllers\\HqmPostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HqmPostsController.cs",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Controllers\\HqmPostsController.cs",
+              "RelativeToolTip": "Controllers\\HqmPostsController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowDIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:03:38.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HqmPost.cs",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Models\\HqmPost.cs",
+              "RelativeDocumentMoniker": "Models\\HqmPost.cs",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Models\\HqmPost.cs",
+              "RelativeToolTip": "Models\\HqmPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:18:05.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T03:00:57.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:51:16.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HqmHomeController.cs",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Controllers\\HqmHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HqmHomeController.cs",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Controllers\\HqmHomeController.cs",
+              "RelativeToolTip": "Controllers\\HqmHomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:48:27.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\NetCore\\K23CNT3_HaQuangMinh_NetCoreLearning\\HqmLesson10EF\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:47:25.408Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+﻿@model HaQuangMinh_2310900067.Models.HqmEmployeee
+
+@{
+    ViewData["Title"] = "Them moi nhan vien";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>HqmEmployeee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="HqmCreate" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HqmEmpId" class="control-label"></label>
+                <input asp-for="HqmEmpId" class="form-control" />
+                <span asp-validation-for="HqmEmpId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmEmpName" class="control-label"></label>
+                <input asp-for="HqmEmpName" class="form-control" />
+                <span asp-validation-for="HqmEmpName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmEmpLevel" class="control-label"></label>
+                <input asp-for="HqmEmpLevel" class="form-control" />
+                <span asp-validation-for="HqmEmpLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmEmpStartDate" class="control-label"></label>
+                <input asp-for="HqmEmpStartDate" class="form-control" />
+                <span asp-validation-for="HqmEmpStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HqmEmpStatus" class="control-label"></label>
+                <input asp-for="HqmEmpStatus" class="form-control" />
+                <span asp-validation-for="HqmEmpStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="HqmIndex">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<HaQuangMinh_2310900067.Models.HqmEmployeee>
+
+@{
+    ViewData["Title"] = "Danh sach nhan vien";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="HqmCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmEmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmEmpLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmEmpStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HqmEmpStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmEmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HqmEmpLevel)
+            </td>
+            <td>
+                @(item.HqmEmpStartDate?.ToString("dd/MM/yyyy"))
+            </td>
+                <td>
+                    @if (item.HqmEmpStatus == true)
+                    {
+                        <span class="badge bg-success">Hiển thị</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Tạm khóa</span>
+                    }
+                </td>
+            <td>
+                <a asp-action="HqmEdit" asp-route-hqmId="@item.HqmEmpId">Edit</a> |
+                    <a asp-action="HqmDetails" asp-route-hqmId="@item.HqmEmpId">Details</a> |
+                    <a asp-action="HqmDelete" asp-route-hqmId="@item.HqmEmpId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

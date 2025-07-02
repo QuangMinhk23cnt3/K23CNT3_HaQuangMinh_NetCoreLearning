@@ -1,0 +1,60 @@
+﻿@model HqmLesson10EF.Models.HqmPost
+
+@{
+    ViewData["Title"] = "Tao moi bai viet";
+}
+
+
+<form asp-action="HqmCreate" enctype="multipart/form-data">
+    <div class="card shadow-sm mx-auto" style="max-width: 600px;">
+
+        <div class="card-header">
+            <h2 class="text-center my-4">@ViewData["Title"]</h2>
+        </div>
+        <div class="card-body">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="mb-3">
+                <label asp-for="HqmTitle" class="form-label fw-semibold"></label>
+                <input asp-for="HqmTitle" class="form-control" placeholder="Nhập tiêu đề bài viết" />
+                <span asp-validation-for="HqmTitle" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="HqmImage" class="form-label fw-semibold"></label>
+                <input asp-for="HqmImage" class="form-control" type="file" />
+                <span asp-validation-for="HqmImage" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="HqmContent" class="form-label fw-semibold"></label>
+                <textarea asp-for="HqmContent" class="form-control" rows="4" placeholder="Nhập nội dung bài viết"></textarea>
+                <span asp-validation-for="HqmContent" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="HqmStatus" class="form-label fw-semibold"></label>
+                <select asp-for="HqmStatus" class="form-select">
+                    <option value="">--Chọn trạng thái--</option>
+                    <option value="true">Hiển thị</option>
+                    <option value="false">Ẩn</option>
+                </select>
+                <span asp-validation-for="HqmStatus" class="text-danger"></span>
+            </div>
+
+
+
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary mr-2">Ghi lại</button>
+            <a asp-action="HqmIndex" class="btn btn-secondary">Quay lại danh sách</a>
+
+        </div>
+    </div>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
